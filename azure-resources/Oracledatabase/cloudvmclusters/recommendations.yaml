@@ -1,0 +1,267 @@
+- description: Ensure ODAA clusters are running
+  aprlGuid: 4b33324a-70cd-4bac-bdae-da4c382c436b
+  recommendationTypeId: null
+  recommendationControl: Other Best Practices
+  recommendationImpact: High
+  recommendationResourceType: oracle.database/cloudvmclusters
+  recommendationMetadataState: Active
+  longDescription: |
+    Your Long Description Here
+    (less than 300 characters)
+  potentialBenefits: Ensure service is running
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "Link URL"
+
+- description: Data Guard or Active Data Guard (read access) is setup
+  aprlGuid: 914d0e9d-60af-49d3-8bf7-d32d983cacae
+  recommendationTypeId: null
+  recommendationControl: Business Continuity/Disaster Recovery
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Your Long Description Here
+    (less than 300 characters)
+  potentialBenefits: Potential Benefits of Implementing the Recommendation (less than 60 characters)
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure"
+
+- description: Data guard observer has been deployed to automate automatic failover for High Availability
+  aprlGuid: 768a5b06-41d4-4f10-b544-fbd2f6999af4
+  recommendationTypeId: null
+  recommendationControl: Business Continuity
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Data guard observer has been deployed to automate automatic failover for High Availability
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: no
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Infra and cluster in a second availability zone or region.
+  aprlGuid: 84d9ca24-4549-4114-8cf2-4af726fb2498
+  recommendationTypeId: null
+  recommendationControl: Business Continuity/Disaster Recovery
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Infra and cluster in a second availability zone or region.
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Database keys are in OCI Vault.
+  aprlGuid: bbe4014f-c49d-475d-9c48-76cb3c190483
+  recommendationTypeId: null
+  recommendationControl: Other Best Practices
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Database keys are in OCI Vault.
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Each Exadata infrastructure deployment has at least one Exadata VM cluster in a separate virtual network (VNet) to form the primary and standby environments.
+  aprlGuid: 5fe46f23-5e9b-4d4c-936d-9642b1461490
+  recommendationTypeId: null
+  recommendationControl: Other Best Practices
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Each Exadata infrastructure deployment has at least one Exadata VM cluster in a separate virtual network (VNet) to form the primary and standby environments.
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Primary and standby client and backup subnets are separated VNets without overlapping IP CIDR ranges.
+  aprlGuid: 49e1f0ce-3184-4869-8f8f-b0a94b3dfc71
+  recommendationTypeId: null
+  recommendationControl: Business Continuity/Disaster Recovery
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Primary and standby client and backup subnets are separated VNets without overlapping IP CIDR ranges.
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: The application tier spans at least two availability zones.
+  aprlGuid: 2ce48b43-bc8f-4b9e-850e-6cf827592daa
+  recommendationTypeId: null
+  recommendationControl: Business Continuity/Disaster Recovery
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    The application tier spans at least two availability zones.
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Application VNet is peered with each VNet of primary and standby VM clusters
+  aprlGuid: c1b62987-1e9c-4b7e-9bbb-2deef4fef124
+  recommendationTypeId: null
+  recommendationControl: Other Best Practices
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Application VNet is peered with each VNet of primary and standby VM clusters
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: A database backup mechanism is in place (e.g. OCI Object Storage, Azure Backup)
+  aprlGuid: 82d1acf2-5716-4557-a221-bf525bd630f5
+  recommendationTypeId: null
+  recommendationControl: Business Continuity/Disaster Recovery
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    A database backup mechanism is in place (e.g. OCI Object Storage, Azure Backup)
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Automatic Scaling
+  aprlGuid: 03b1d28a-23f8-4b52-8ef0-a91070b44873
+  recommendationTypeId: null
+  recommendationControl: Scalability
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Automatic Scaling
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Implement Retry Logic
+  aprlGuid: 81cd4404-09a4-4d1a-9f9c-6374e3d284fa
+  recommendationTypeId: null
+  recommendationControl: Other Best Practices
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Implement Retry Logic
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Monitor your Oracle@Azure database in Near Real-Time to Detect Reliability Incidents
+  aprlGuid: 98375cd5-9340-4c48-a39f-0b2c44cd79c7
+  recommendationTypeId: null
+  recommendationControl: Monitoring and Alerting
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Monitor your Oracle@Azure database in Near Real-Time to Detect Reliability Incidents
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+
+- description: Use OCI VCN Peering for Data Guard Network
+  aprlGuid: b5c53474-04ea-4809-b015-5131659521fc
+  recommendationTypeId: null
+  recommendationControl: Other Best Practices
+  recommendationImpact: High
+  recommendationResourceType: TBC
+  recommendationMetadataState: Active
+  longDescription: |
+    Use OCI VCN Peering for Data Guard Network
+  potentialBenefits: Explain benefit
+  pgVerified: false
+  publishedToLearn: false
+  publishedToAdvisor: false
+  automationAvailable: no/arg
+  tags: null
+  learnMoreLink:
+    - name: Learn More
+      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
