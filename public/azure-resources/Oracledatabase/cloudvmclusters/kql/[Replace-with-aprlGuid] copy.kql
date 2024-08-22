@@ -1,0 +1,5 @@
+// Azure Resource Graph Query
+// Replace with a description of what your query returns
+resources
+// Replace with your query
+| project recommendationId = '[Replace with aprlGuid]', name, id, tags
