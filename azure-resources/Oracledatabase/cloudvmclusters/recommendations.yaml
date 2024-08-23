@@ -6,7 +6,7 @@
   recommendationResourceType: oracle.database/cloudvmclusters
   recommendationMetadataState: Active
   longDescription: |
-   Cloud Vm Clusters can be in a number of states during its lifecycle (Available, Failed, MaintenanceIn Progress, Provisioning, Terminated, Terminating and Updtaing).
+   Cloud Vm Clusters can be in a number of states during their lifecycle (Available, Failed, Maintenance In Progress, Provisioning, Terminated, Terminating and Updating).
    Ensure that the ODAA clusters are in Available state under normal operations.
   potentialBenefits: Ensure service is available
   pgVerified: false

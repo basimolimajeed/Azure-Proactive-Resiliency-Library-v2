@@ -6,7 +6,7 @@
   recommendationResourceType: oracle.database/cloudExadataInfrastructures
   recommendationMetadataState: Active
   longDescription: |
-   Cloud Exadata infrastructures can be in a number of states during its lifecycle (Available, Failed, MaintenanceIn Progress, Provisioning, Terminated, Terminating and Updtaing).
+   Cloud Exadata infrastructures can be in a number of states during its lifecycle (Available, Failed, Maintenance In Progress, Provisioning, Terminated, Terminating and Updating).
    Ensure that the infrastructure is in Available state under normal operations.
   potentialBenefits: Ensure service is available
   pgVerified: false
