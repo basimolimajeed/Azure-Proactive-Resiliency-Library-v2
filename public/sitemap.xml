@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/</loc>
+    <lastmod>2024-08-23T15:27:43-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/contributing/create-content/create-recommendations/</loc>
     <lastmod>2024-07-03T17:04:28-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/contributing/getting-started/</loc>
     <lastmod>2024-04-15T04:57:57+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/script-overviews/</loc>
-    <lastmod>2024-07-17T12:18:54-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/contributing/create-content/add-dependent-azure-resources/</loc>
     <lastmod>2024-04-17T12:09:44-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/analyzer/</loc>
+    <lastmod>2024-08-23T15:27:43-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-resources/</loc>
     <lastmod>2024-04-29T22:06:55-05:00</lastmod>
@@ -22,6 +25,9 @@
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/contributing/create-content/create-archetypes/</loc>
     <lastmod>2024-04-17T12:09:44-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/reports/</loc>
+    <lastmod>2024-08-23T15:27:43-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-specialized-workloads/</loc>
     <lastmod>2024-04-29T22:06:55-05:00</lastmod>
@@ -33,7 +39,7 @@
     <lastmod>2024-04-29T22:06:55-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/</loc>
-    <lastmod>2024-05-03T11:12:55-05:00</lastmod>
+    <lastmod>2024-08-23T14:03:14-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/contributing/</loc>
     <lastmod>2024-04-07T23:36:29-05:00</lastmod>
@@ -49,6 +55,9 @@
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/privacy/</loc>
     <lastmod>2024-04-15T11:34:34-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/runbooks/</loc>
+    <lastmod>2024-08-23T14:03:14-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-resources/AAD/</loc>
     <lastmod>2024-07-02T05:52:15+02:00</lastmod>
@@ -153,7 +162,7 @@
     <lastmod>2024-04-10T23:46:46-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/</loc>
-    <lastmod>2024-08-13T11:19:47-05:00</lastmod>
+    <lastmod>2024-08-23T15:27:43-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-specialized-workloads/avd/</loc>
     <lastmod>2024-07-12T13:15:07-05:00</lastmod>
@@ -251,8 +260,7 @@
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-resources/NetworkCloud/cloudServicesNetworks/</loc>
     <lastmod>2024-04-11T22:18:12-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-resources/Oracledatabase/cloudvmclusters/</loc>
-    <lastmod>2024-07-24T21:31:53+01:00</lastmod>
+    <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-resources/Oracledatabase/cloudexadatavmclusters/</loc>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-resources/NetworkCloud/clusterManagers/</loc>
     <lastmod>2024-04-11T22:18:12-06:00</lastmod>
@@ -699,7 +707,7 @@
     <lastmod>2024-04-05T18:44:57-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-specialized-workloads/oracle/</loc>
-    <lastmod>2024-07-24T21:31:53+01:00</lastmod>
+    <lastmod>2024-08-22T20:10:22+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/azure-resources/Oracledatabase/</loc>
     <lastmod>2024-07-24T21:31:53+01:00</lastmod>

@@ -14,6 +14,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
+    - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
+      url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-database-azure"
     - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
@@ -25,7 +27,7 @@
   recommendationResourceType: Specialized.Workload/oracle
   recommendationMetadataState: Active
   longDescription:
-    The Oracle Maximum Availability Architecture (MAA) solution is certified the MAA Silver and Gold service level reference architectures with Oracle Database@Azure within the same Azure Region or across one or more Azure Regions. The primary database residing in ExaDB-D provides high availability, data protection, elasticity, and Quality-of-Service (QoS) performance and scalability benefits.
+    The Oracle Maximum Availability Architecture (MAA) solution is certified for the MAA Silver and Gold service level reference architectures with Oracle Database@Azure within the same Azure Region or across one or more Azure Regions. The primary database residing in ExaDB-D provides high availability, data protection, elasticity, and Quality-of-Service (QoS) performance and scalability benefits.
   potentialBenefits: The cloud MAA architecture achieves comprehensive data protection and disaster recovery.
   pgVerified: false
   publishedToLearn: false
@@ -33,6 +35,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
+    - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
+      url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-database-azure"
     - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
@@ -52,6 +56,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
+    - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
+      url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-database-azure"
     - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
@@ -71,7 +77,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
+    - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure @basimolimajeed not sure this makes sense, do we need an article link?
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
 - description: Plan and implement IP addressing strategy to meet current and future requirements
@@ -91,8 +97,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
-      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+    - name: Plan for IP Address Space
+      url: "https://docs.oracle.com/en-us/iaas/Content/database-at-azure/oaa_ip.htm"
 
 - description: The ODAA subnet must be the only delegated subnet withing the VNet
   aprlGuid: 76c9136c-642d-4ea3-a4f5-655f28d2ee07
@@ -102,7 +108,7 @@
   recommendationResourceType: Specialized.Workload/oracle
   recommendationMetadataState: Active
   longDescription: |
-    An Azure VNet must only have one delegated subnet
+    An Azure VNet must only have one delegated subnet. The ODAA subnet must be the only delegated subnet within the VNet.
   potentialBenefits: Avoid any issues caused by multiple delegated subnets within the VNet.
   pgVerified: false
   publishedToLearn: false
@@ -113,7 +119,7 @@
     - name: Network Planning for Oracle Database@Azure
       url: "https://learn.microsoft.com/en-us/azure/oracle/oracle-db/oracle-database-network-plan#constraints"
 
-- description: Deploy Data guard observer to automate automatic failover for High Availability
+- description: Deploy Data Guard observer to automate automatic failover for High Availability
   aprlGuid: 768a5b06-41d4-4f10-b544-fbd2f6999af4
   recommendationTypeId: null
   recommendationControl: Business Continuity
@@ -121,8 +127,8 @@
   recommendationResourceType: Specialized.Workload/oracle
   recommendationMetadataState: Active
   longDescription: |
-    Data guard observer has been deployed to automate automatic failover for High Availability
-  potentialBenefits: Dataguard observer automates failover from primary to standby database in case of primary database failure
+    Data Guard observer should be deployed to automate failover for High Availability.
+  potentialBenefits: Data Guard observer automates failover from primary to standby database in case of primary database failure.
   pgVerified: false
   publishedToLearn: false
   publishedToAdvisor: no
@@ -132,15 +138,15 @@
     - name: Learn More
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
-- description: When using own encryption keys facilitated by OKV as VMs in Azure, make sure that the VMs are set up in a redundant manner.
+- description: When using own encryption keys facilitated by OKV as VMs in Azure, make sure that the VMs are set up in a redundant manner
   aprlGuid: bbe4014f-c49d-475d-9c48-76cb3c190483
   recommendationTypeId: null
-  recommendationControl: Other Best Practices
+  recommendationControl: High Availability
   recommendationImpact: High
   recommendationResourceType: Specialized.Workload/oracle
   recommendationMetadataState: Active
   longDescription: |
-    Provide redundancy for VMs used as OKV.
+    Provide redundancy for VMs used as OKV, note that this is only relevant if customer is using own keys and only if OCI vault is not used.
   potentialBenefits: Protect access to keys in case of VM failure.
   pgVerified: false
   publishedToLearn: false
@@ -148,10 +154,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
+    - name: Deploy Oracle Key Vault for Oracle Database@Azure
+      url: "https://docs.oracle.com/en/solutions/deploy-key-vault-database-at-azure/index.html#GUID-7DD0A9E4-E2AB-4C46-9D40-2EFFC344C7C7"
 
-- description: Ensure that the application tier spans at least two availability zones which are the same Azs where ODAA is deployed.
+- description: Ensure that the application tier spans at least two availability zones which are the same AZs where ODAA is deployed
   aprlGuid: 2ce48b43-bc8f-4b9e-850e-6cf827592daa
   recommendationTypeId: null
   recommendationControl: Business Continuity
@@ -159,7 +165,7 @@
   recommendationResourceType: Specialized.Workload/oracle
   recommendationMetadataState: Active
   longDescription:
-    The application tier spans at least two availability zones which are the same Azs where ODAA is deployed.
+    The application tier spans at least two availability zones which are the same AZs where ODAA is deployed.
   potentialBenefits: Azure Availability Zones provide high availability to your applications and data.
   pgVerified: false
   publishedToLearn: false
@@ -167,7 +173,9 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
+      url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-database-azure"
+    - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
 - description: Ensure that the application VNet is peered with each VNet of primary and standby VM clusters
@@ -178,7 +186,7 @@
   recommendationResourceType: Specialized.Workload/oracle
   recommendationMetadataState: Active
   longDescription: |
-    Application VNet is peered with each VNet of primary and standby VM clusters
+    Application VNet should be peered with each VNet of primary and standby VM clusters.
   potentialBenefits: VNet peering enables you to connect VNets in the same region through Azure's backbone network thus reducing latency.
   pgVerified: false
   publishedToLearn: false
@@ -186,10 +194,12 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
+      url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-database-azure"
+    - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
-- description: Configure Maintenance schedule for rolling Updates.
+- description: Configure Maintenance schedule for rolling Updates
   aprlGuid: 02bfe908-d958-451a-a603-bef8277ae56a
   recommendationTypeId: null
   recommendationControl: Other Best Practices
