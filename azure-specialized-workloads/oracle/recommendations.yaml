@@ -18,7 +18,7 @@
       url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-database-azure"
     - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
-      - name: Oracle Database@Azure Evaluations by Oracle MAA
+    - name: Oracle Database@Azure Evaluations by Oracle MAA
       url: "https://docs.oracle.com/en/database/oracle/oracle-database/21/haovw/db-azure1.html#GUID-91572193-DF8E-4D7A-AF65-7A803B89E840"
 
 
@@ -88,7 +88,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure @basimolimajeed not sure this makes sense, do we need an article link?
+    - name: Learn about Oracle Maximum Availability Architecture for Oracle Database@Azure
       url: "https://docs.oracle.com/en/solutions/oracle-maa-db-at-azure/#GUID-7723E2B1-9588-40BC-88BE-44637B1AF0D9"
 
 - description: Plan and implement IP addressing strategy to meet current and future requirements
