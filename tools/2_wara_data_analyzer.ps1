@@ -321,7 +321,7 @@ $Script:Runtime = Measure-Command -Expression {
     foreach ($adv in $CoreAdvisories) {
       if (![string]::IsNullOrEmpty($adv.recommendationId)) {
         $APRLADV = $Script:ServicesYAMLContent | Where-Object { $_.recommendationTypeId -eq $adv.recommendationId }
-        if ($APRLADV.recommendationTypeId -eq $adv.recommendationId <#-and $APRLADV.automationAvailable -ne 'arg' #>) {
+        if ($APRLADV.recommendationTypeId -eq $adv.recommendationId <#-and $APRLADV.automationAvailable -ne 'true' #>) {
           $Ticket = $Script:SupportTickets | Where-Object { $_.'Related Resource' -eq $adv.id }
           $Tickets = if ($Ticket.'Ticket ID'.count -gt 1) { $Ticket.'Ticket ID' | ForEach-Object { $_ + ' /' } }else { $Ticket.'Ticket ID' }
           $Tickets = [string]$Tickets
@@ -750,7 +750,7 @@ $Script:Runtime = Measure-Command -Expression {
             'Recommendation Title'                                                                           = $Service.description;
             'Impact'                                                                                         = $Service.recommendationImpact;
             'Best Practices Guidance'                                                                        = [string]$Service.longDescription;
-            'Read More'                                                                                      = [string]$Service.learnMoreLink.url;
+            'Read More'                                                                                      = [string]($Service.learnMoreLink.url -join "`n");
             'Potential Benefits'                                                                             = [string]$Service.potentialBenefits;
             'Add associated Outage TrackingID and/or Support Request # and/or Service Retirement TrackingID' = '';
             'Observation / Annotation'                                                                       = '';
@@ -803,7 +803,7 @@ $Script:Runtime = Measure-Command -Expression {
           'Recommendation Title'                                                                           = $WAFYAML.description;
           'Impact'                                                                                         = $WAFYAML.recommendationImpact;
           'Best Practices Guidance'                                                                        = [string]$WAFYAML.longDescription;
-          'Read More'                                                                                      = [string]$WAFYAML.learnMoreLink.url;
+          'Read More'                                                                                      = [string]($WAFYAML.learnMoreLink.url -join "`n");
           'Potential Benefits'                                                                             = [string]$WAFYAML.potentialBenefits;
           'Add associated Outage TrackingID and/or Support Request # and/or Service Retirement TrackingID' = '';
           'Observation / Annotation'                                                                       = '';
